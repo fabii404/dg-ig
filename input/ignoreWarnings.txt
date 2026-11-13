@@ -1,6 +1,47 @@
 == Suppressed Messages ==
 
-# Hier könnt ihr Warnungen aus dem QA-Report unterdrücken.
-# Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
-# Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
-# Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+
+# Warnungen aus dem automatisch generierten Suchformular unterdrücken.
+# Grund: Die Fehler betreffen das vom IG Publisher generierte HTML
+# in output/searchform.html und nicht die selbst erstellten FHIR-Ressourcen.
+
+# Fehlerhafte HTML-Verschachtelung beim schliessenden Link-Tag.
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+
+# Fehlerhafte HTML-Verschachtelung bei den schliessenden div-Tags.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+# Das Fragment ip-statements.xhtml wird vom verwendeten Implementation-Guide-Template
+# nicht eingebunden. Es handelt sich um eine optionale Dokumentationskomponente.
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+
+# Keines der beiden Cross-Version-Analyse-Fragmente wird eingebunden.
+# Diese optionale Dokumentationskomponente wird für diese Arbeit nicht benötigt.
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+
+# Keine der Dependency-Table-Varianten wird eingebunden.
+# Die Abhängigkeiten werden bereits über die Konfiguration verwaltet.
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+
+# Das globale Tabellenfragment wird vom verwendeten Template nicht eingebunden.
+# Es ist für die Darstellung des eigenen Implementation Guides nicht erforderlich.
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
