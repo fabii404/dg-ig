@@ -45,3 +45,13 @@ An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xh
 # Es ist für die Darstellung des eigenen Implementation Guides nicht erforderlich.
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
+# Die folgende Warnung weist darauf hin, dass eine neuere Version des
+# CH-Term-Pakets verfügbar ist. Die aktuell verwendete Version 3.3.0
+# wird für diese Übung vorerst beibehalten.
+
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
+
+# Die folgende Warnung betrifft ein Pattern bei einem wiederholbaren
+# Element. Der Hinweis wird für diese Übung vorerst akzeptiert.
+
+The repeating element has a pattern value
