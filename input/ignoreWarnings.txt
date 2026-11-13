@@ -52,9 +52,8 @@ The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced
 The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
 
 
-# Die Warnung betrifft ein Pattern bei einem wiederholbaren Element
-# eines primitiven Datentyps. Der .NET-Validator wendet dieses Pattern
-# möglicherweise nicht auf alle Wiederholungen an. Für diese Übung
-# wird die Warnung dokumentiert und vorerst unterdrückt.
-
+# Die Warnung betrifft die Validierung eines wiederholbaren primitiven Elements
+# mit einem Pattern-Wert im generierten StructureDefinition-Snapshot.
+# Sie weist auf eine Einschränkung des DotNet-Validators hin.
+# Die Ursache sollte separat geprüft werden.
 The repeating element has a pattern value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
