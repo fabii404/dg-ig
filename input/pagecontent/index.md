@@ -20,8 +20,6 @@ TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
 * [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): Profil zur strukturierten Erfassung von Arzneimittelallergien auf Basis von CH Core.
 * [Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html): Beispiel bestätigten Penicillinallergie
 
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
 
 ### Abhängigkeiten
 
